@@ -6,6 +6,7 @@ type: text               # 'text', 'voice', or 'category'
 
 
 channels:
-  - webhook                # Channel filename without extension, channel display order is defined within each yaml individually, not here.
+  - feed                # Channel filename without extension, channel display order is defined within each yaml individually, not here.
   - commands
   - general
+  - logs
