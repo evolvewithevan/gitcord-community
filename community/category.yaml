@@ -6,6 +6,6 @@ type: text               # 'text', 'voice', or 'category'
 
 
 channels:
-  - memes                # Channel filename without extension, channel display order is defined within each yaml individually, not here.
+  - webhook                # Channel filename without extension, channel display order is defined within each yaml individually, not here.
   - off-topic
   - general
