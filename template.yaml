@@ -1,0 +1,64 @@
+# GitCord Community Template - Monolithic Format
+# This file replaces the directory-based template structure with a single YAML file
+
+server:
+  name: "GitCord Community"
+  version: "2.0"
+  description: "Community-oriented Discord server template"
+  releaseNotes: "Converted to monolithic format with community features"
+
+categories:
+  - name: "Boilerplate"
+    position: 0
+    type: "category"
+    channels:
+      - name: "moderator-only"
+        type: "text"
+        position: 0
+        topic: "Private channel for moderators only"
+        nsfw: false
+      - name: "rules"
+        type: "text"
+        position: 1
+        topic: "Server rules and guidelines"
+        nsfw: false
+
+  - name: "Community"
+    position: 1
+    type: "category"
+    channels:
+      - name: "general"
+        type: "text"
+        position: 0
+        topic: "General chat for everyone"
+        nsfw: false
+      - name: "commands"
+        type: "text"
+        position: 1
+        topic: "Test bot commands here"
+        nsfw: false
+      - name: "feed"
+        type: "text"
+        position: 2
+        topic: "Automated feeds and updates"
+        nsfw: false
+      - name: "logs"
+        type: "text"
+        position: 3
+        topic: "Server logs and moderation actions"
+        nsfw: false
+
+  - name: "Voice Chats"
+    position: 2
+    type: "category"
+    channels:
+      - name: "vc1"
+        type: "voice"
+        position: 0
+        topic: "General voice chat"
+        nsfw: false
+      - name: "vc2"
+        type: "voice"
+        position: 1
+        topic: "Secondary voice channel"
+        nsfw: false 
