@@ -23,7 +23,7 @@ categories:
         topic: "Server rules and guidelines"
         nsfw: false
 
-  - name: "Community"
+  - name: "Main Area"
     position: 1
     type: "category"
     channels:
